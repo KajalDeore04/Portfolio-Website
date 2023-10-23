@@ -1,0 +1,258 @@
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: #6d8654;
+}
+
+nav {
+  width: 85%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+nav .logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+nav ul li {
+  display: inline-flex;
+  list-style: none;
+  margin: 10px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: beige;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+.btn {
+  text-decoration: none;
+  background: #be9a81;
+  color: #fff;
+  padding: 10px 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(0.9);
+  background-color: black;
+}
+
+.info {
+  margin-left: 8%;
+  margin-top: 15%;
+}
+
+.info h1 p {
+  font-size: 70px;
+  color: #d9dcdd;
+  flex: auto;
+
+}
+
+.info h1 span {
+  color: #be9a81;
+}
+
+.info p h4 {
+  color: #a1a1a1;
+  line-height: 22px;
+}
+
+.info .btn {
+  display: inline-block;
+  margin: 30px 0;
+}
+
+
+.images {
+  width: 45%;
+  height: 65%;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  flex: auto;
+  margin-right: 40px;
+  margin-bottom: 30px;
+
+}
+
+.images img {
+  height: 100%;
+  position: absolute;
+  left: 70%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: all 1s;
+}
+
+.images:hover .bg {
+  bottom: 40px;
+}
+
+.images:hover .girl {
+  left: 54%;
+}
+
+
+
+/* Experience Section */
+.experience {
+  background: #d9dcdd;
+  color: #F5F5DC;
+
+  padding: 50px;
+  text-align: center;
+}
+
+.experience h2 {
+  font-size: 28px;
+  color: #6d8654;
+}
+
+.experience-item {
+  margin: 20px 0;
+}
+
+.experience-item h3 {
+  font-size: 20px;
+  color: #6d8654;
+}
+
+.experience-item p {
+  font-size: 16px;
+  color: #a1a1a1;
+}
+
+/* Project Section */
+
+.project-card {
+  height: 100;
+  width: 500px;
+  inline-size: none;
+
+  background-color: #f8f3f3;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px green;
+}
+
+.projects {
+
+  background: #be9a81;
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects h2 {
+  font-size: 28px;
+  color: #fff;
+}
+
+.project-item {
+  margin: 20px 0;
+}
+
+.project-item h3 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.project-item p {
+  font-size: 16px;
+  color: #d9dcdd;
+}
+
+/* Skills Section */
+.skills {
+  background: #6d8654;
+  padding: 40px 0;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.skills h2 {
+  font-size: 28px;
+  color: #fff;
+}
+
+.skills ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.skills li {
+  font-size: 20px;
+  color: #6d8654;
+  margin: 10px 0;
+  border: 1px solid #444;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #f8f3f3;
+}
+
+/* Contact */
+.icons {
+  margin-left: 50px;
+
+}
+
+.icons a {
+  font-size: 50px;
+  margin-right: 20px;
+  color: #b0b656;
+  transition: all 0.3s ease;
+}
+
+.icons div {
+  margin-left: 8%;
+}
+
+.icons a:hover {
+  color: black;
+}
+
+.icons h2 {
+  font-size: 28px;
+  color: #be9a81;
+
+
+}
